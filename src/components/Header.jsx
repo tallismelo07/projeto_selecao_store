@@ -36,6 +36,7 @@ export default function Header() {
   const navLinks = [
     { to: '/', label: 'Início' },
     { to: '/loja', label: 'Loja' },
+    { to: '/timeline', label: '🏆 Copas' },
     { to: '/favoritos', label: 'Favoritos' },
   ]
 

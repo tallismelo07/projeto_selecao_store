@@ -12,6 +12,7 @@ import Shop from './pages/Shop'
 import ProductDetail from './pages/ProductDetail'
 import Checkout from './pages/Checkout'
 import Favorites from './pages/Favorites'
+import Timeline from './pages/Timeline'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -33,6 +34,7 @@ function AppLayout() {
           <Route path="/produto/:id" element={<ProductDetail />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/favoritos" element={<Favorites />} />
+          <Route path="/timeline" element={<Timeline />} />
           <Route
             path="*"
             element={
